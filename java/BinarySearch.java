@@ -1,7 +1,11 @@
 package sdet_javaProg;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
+
+/*
+// Approach 1: Using logic
 public class BinarySearch {
 	
 	// Preconditions:
@@ -42,8 +46,28 @@ public class BinarySearch {
 		}
 	}
 }
+ */
 
+//Approach 2: Using inbuilt class.method()
+public class BinarySearch {
+	
+	// Preconditions:
+	// Array must already be sorted or add the additional program to sort the array
+		
 
-
-
-
+	public static void main(String[] args) {
+		int arr[] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110};
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the element to be searched: ");
+		int n = sc.nextInt();
+		int element = Arrays.binarySearch(arr, n);
+		if(element<0)
+		{
+			System.out.println("Element " +n+ " not found");
+		}
+		else
+		{
+			System.out.println("Element found at index position: " +Arrays.binarySearch(arr, n));
+		}
+	}
+}
