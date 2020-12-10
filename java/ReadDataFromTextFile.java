@@ -34,7 +34,7 @@ public class ReadDataFromTextFile {
 	public static void main(String[] args) throws IOException
 	
 	{
-		File file = new File("C:\\Users\\debbi\\eclipse-workspace\\sdet_javaProg\\src\\sdet_javaProg\\Test.txt");
+		File file = new File("C:\\Users\\debbi\\eclipse-workspace\\sdet_javaProg\\src\\sdet_javaProg\\ReadText.txt");
 		Scanner sc = new Scanner(file);
 		
 		while(sc.hasNextLine())
@@ -52,7 +52,7 @@ public class ReadDataFromTextFile {
 	public static void main(String[] args) throws IOException
 	
 	{
-		File file = new File("C:\\Users\\debbi\\eclipse-workspace\\sdet_javaProg\\src\\sdet_javaProg\\Test.txt");
+		File file = new File("C:\\Users\\debbi\\eclipse-workspace\\sdet_javaProg\\src\\sdet_javaProg\\ReadText.txt");
 		Scanner sc = new Scanner(file);
 		sc.useDelimiter("//z");
 		System.out.println(sc.next());			
