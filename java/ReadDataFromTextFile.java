@@ -15,7 +15,7 @@ public class ReadDataFromTextFile {
 	
 	{
 		
-		FileReader fr = new FileReader("C:\\Users\\debbi\\eclipse-workspace\\sdet_javaProg\\src\\sdet_javaProg\\ReadText.txt");
+		FileReader fr = new FileReader("C:\\Users\\debbi\\eclipse-workspace\\sdet_javaProg\\src\\sdet_javaProg\\Test.txt");
 		BufferedReader br = new BufferedReader(fr);
 		
 		String str;
@@ -23,6 +23,7 @@ public class ReadDataFromTextFile {
 		{
 			System.out.println(str);
 		}
+		br.close()
 	}
 }
 */
