@@ -72,3 +72,7 @@ public class LinkedListDemo1 {
 		}				
 	}
 }
+
+
+//https://www.youtube.com/watch?v=1Eyartworbk&list=PLUDwpEzHYYLu9-xrx5ykNH8wmN1C1qClk&index=5
+//Time stamp <30 - 49> mins
