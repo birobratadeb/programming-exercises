@@ -14,7 +14,7 @@ public class LinkedListDemo3 {
 
 		System.out.println("Elements present in the linkedlist after addition: "+l);	
 		
-		// LinkedList specific methods available in the LinkedList and used for implementing stacks and queue
+		// Specific methods available in the LinkedList and used for implementing stacks and queue
 		
 		// Add a new element as a first node in the LinkedList
 		l.addFirst("Tiger");
