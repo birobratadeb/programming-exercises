@@ -25,3 +25,10 @@ public class LinkedHashSetDemo {
 		System.out.println("Insertion order is preserved in LinkedHashSet: "+lset);		
 	}
 }
+
+
+
+/*
+https://www.youtube.com/watch?v=IQyjt4dvgIY&list=PLUDwpEzHYYLu9-xrx5ykNH8wmN1C1qClk&index=6
+Time stamp: 4:35 - 9:00
+*/
