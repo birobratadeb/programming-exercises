@@ -52,7 +52,7 @@ public class QueueDemo1 {
 
 /*
 https://www.youtube.com/watch?v=l5TB6Jj-yTU&list=PLUDwpEzHYYLu9-xrx5ykNH8wmN1C1qClk&index=8
-Time stamp: 18:00 - 37:49
+Time stamp: 18:00 - 34:00
 */
 
 
