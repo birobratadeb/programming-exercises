@@ -15,7 +15,7 @@ public class QueueDemo1 {
 		q.add("B");
 		q.add("C");
 		q.offer("C");   // Duplicates are allowed in PriorityQueue
-		// q.offer(100); // This is not allowed in queue as it accepts only heterogeneous data elements
+		// q.offer(100); // This is not allowed in PriorityQueue as it accepts only heterogeneous data elements
 		
 		System.out.println(q);   // Output: [A, B, C, C]   <Insertion order preserved and Duplicates allowed>
 		
