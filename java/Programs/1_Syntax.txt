@@ -1,0 +1,21 @@
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter the number for which to generate the factorial: ");
+int n = sc.nextInt();
+//***********************************************************************************
+//Sorted Array:
+		int a[] = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110};
+
+//UnSorted Array:	
+		int a[]= {0,14,2,31,4,15,6,17,8,39,10};
+		
+//***********************************************************************************
+Useful Methods:
+* Arrays.toString(a)
+* s= s.replaceAll("[^a-zA-Z0-9 ]", "");
+* if((s.charAt(i)==' ') && (s.charAt(i+1)!=' '))
+
+* This extracts each character from the string:
+  Ref prog: LongestSubString.java
+
+		for(int i=0; i<str.length(); i++) {
+			char c =str.charAt(i); 
