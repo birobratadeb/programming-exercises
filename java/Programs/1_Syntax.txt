@@ -19,3 +19,7 @@ Useful Methods:
 
 		for(int i=0; i<str.length(); i++) {
 			char c =str.charAt(i); 
+						
+* 	public static void main(String[] args) {
+
+	}
