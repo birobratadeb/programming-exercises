@@ -12,3 +12,4 @@ public class CountCharacterOccurence {
 		System.out.println("Number of occurences of a: "+count);	
 	}
 }
+

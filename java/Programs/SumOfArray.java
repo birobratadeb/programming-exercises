@@ -5,7 +5,7 @@ public class SumOfArray {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		 int[] intArray = new int[]{14,2,31,4,15,6,17,8,39,10};  
+		 int[] intArray = new int[]{14,2,31,4,15,6,17,8,39,10};  // Alternate: int intArray[] = {14,2,31,4,15,6,17,8,39,10};    
 		 int sum = 0;
 		 /*
 		 // Approach 1

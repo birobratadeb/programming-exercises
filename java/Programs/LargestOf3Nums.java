@@ -83,8 +83,22 @@ public class LargestOf3Nums {
 		int c = sc.nextInt();
 		
 		int largest = a>b?a:b;     // Largest of a and b
-		largest = c>largest?c:largest;   // Largest of c and largest1
+		largest = c>largest?c:largest;   // Largest of c and largest
 		
 		System.out.println(largest+ " is largest");
+		
+		/*
+		//Alternate 1
+		int largest1 = a>b?a:b;     // Largest of a and b
+		int largest2 = c>largest1?c:largest1;   // Largest of c and largest1
+		
+		System.out.println(largest2+ " is largest");
+		 */
+		
+		/*
+		//Alternate 2 : Using combined expression
+		int largest = c>(a>b?a:b)?c:(a>b?a:b);
+		//System.out.println(largest+ " is largest");
+		 */
 	}
 }
