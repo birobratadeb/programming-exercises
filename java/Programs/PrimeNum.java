@@ -1,11 +1,14 @@
+/*
+// Approach 1
+
 package sdet_javaProg;
+
 
 import java.util.Scanner;
 
 public class PrimeNum {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the num: ");
 		int num = sc.nextInt();
@@ -28,3 +31,41 @@ public class PrimeNum {
 		}
 	}
 }
+*/
+
+//------------------------------------------------------------------------------------------------------------------------------------
+
+// Approach 2
+package sdet_javaProg;
+
+import java.util.Scanner;
+
+public class PrimeNum {
+ 
+    public static void main(String[] args) {
+        int temp, num;
+        boolean isPrime = true;
+        System.out.println("Enter the number: ");
+        Scanner in = new Scanner(System.in);
+        num = in.nextInt();
+        in.close();
+        for (int i = 2; i<= num/2; i++) {
+            temp = num%i;
+            if (temp == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+        if(isPrime) 
+            System.out.println(num + " is a prime number");
+            else
+                System.out.println(num + " number is not a prime");                     
+    } 
+}
+
+
+
+/*
+https://www.softwaretestinghelp.com/java-coding-interview-programs/
+Q. #7) Write a Java Program to find whether a number is prime or not.
+*/
