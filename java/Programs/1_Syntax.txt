@@ -23,3 +23,23 @@ Useful Methods:
 * 	public static void main(String[] args) {
 
 	}
+	
+//***********************************************************************************
+*  // Using Character array to convert our string variable to the character
+	String str = new String("SomeStringxyz");  // we have created a string variable str 
+	char[] chars = str.toCharArray(); 
+	
+	
+//***********************************************************************************
+package sdet_javaProg;
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+	
