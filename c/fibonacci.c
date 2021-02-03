@@ -1,5 +1,3 @@
-
-/*
 #include<stdio.h>
 int fibo(int);
 int main()
@@ -24,24 +22,3 @@ int fibo(int n)
     else
         return(fib(n-1)+fibo(n-2)) ;
 }
-
-
-*/
-
-
-
-
-
-/*
-
-#include <stdio.h>
-#include <stdlib.h>
-
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
-}
-*/
-
-
